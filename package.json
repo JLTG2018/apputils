@@ -1,0 +1,60 @@
+{
+  "name": "@JLTG2018/apputils",
+  "version": "0.0.1",
+  "description": "Basic helper functions for HTTP requests, file system, logging, JSON parsing and other basics of a web app.",
+  "main": "build/utils",
+  "typings": "build/utils.d.ts",
+  "private": false,
+  "bundleUpdate": true,
+  "author": "JLTG2018",
+  "license": "GPL",
+  "keywords": [
+    "nodejs",
+    "webapp",
+    "mongodb",
+    "logger"
+  ],
+  "homepage": "https://github.com/JLTG2018/apputils",
+  "repository": "https://github.com/JLTG2018/apputils.git",
+  "dependencies": {
+    "@ekliptor/multihttpdispatcher": "^1.0.1",
+    "app-root-path": "^1.0.0",
+    "base64-url": "^1.3.2",
+    "ejson": "^2.1.2",
+    "entities": "^1.1.1",
+    "escape-html": "^1.0.3",
+    "hi-base32": "^0.2.0",
+    "iconv-lite": "^0.4.13",
+    "mime": "^1.3.4",
+    "nconf": "^0.10.0",
+    "request": "^2.88.2",
+    "sprintf-js": "^1.1.1",
+    "strip-bom": "^3.0.0",
+    "tough-cookie-filestore": "0.0.1",
+    "triple-beam": "^1.3.0",
+    "winston": "^3.3.3",
+    "winston-cluster": "^0.5.4",
+    "winston-mongodb": "^5.0.7"
+  },
+  "devDependencies": {
+    "@types/app-root-path": "^1.2.4",
+    "@types/ejson": "^2.1.2",
+    "@types/escape-html": "0.0.19",
+    "@types/iconv-lite": "0.0.1",
+    "@types/mime": "0.0.29",
+    "@types/nconf": "0.0.33",
+    "@types/node": "^16.10.2",
+    "@types/phantom": "^3.2.0",
+    "@types/progress": "^1.1.28",
+    "@types/request": "^2.0.3",
+    "@types/sprintf-js": "0.0.27",
+    "@types/strip-bom": "^3.0.0",
+    "@types/winston": "^2.4.4",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "prepare": "npm run build"
+  }
+}
